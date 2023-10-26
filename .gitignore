@@ -1,0 +1,17 @@
+# Terraform state and backup files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# .terraform directory
+.terraform/
+
+# .terraform.lock.hcl
+.terraform.lock.hcl
+
+# .terraformrc
+.terraformrc
+
+# .tfvars files that can contain sensitive data
+*.auto.tfvars
+*.tfvars
