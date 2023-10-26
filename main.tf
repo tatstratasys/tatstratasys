@@ -14,13 +14,7 @@ resource "aws_kms_key" "cmk" {
         Effect: "Allow",
         Principal: {
           AWS: [
-            "arn:aws:iam::371090264314:root",
-            "arn:aws:iam::849288601011:root",
-            "arn:aws:iam::392031064982:root",
-            "arn:aws:iam::625109008004:root",
-            "arn:aws:iam::849288601011:root",
             "arn:aws:iam::975732635630:root",
-            "arn:aws:iam::350974690426:root"
           ]
         },
         Action: "kms:*",
